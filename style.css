@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    color: #ffff;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    text-align: center;
+}
+.para h1{
+    font-size: 50px;
+}
+.para p:nth-child(2){
+    margin:15px;
+    font-size: 20px;
+}
+.para p:nth-child(3){
+    margin:15px;
+    font-size: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#guess{
+    font-size: 50px;
+}
+#userInput{
+    margin: 20px;
+   padding: 10px 30px;
+   font-size: 20px;
+   font-weight: bold;
+}
+#subt{
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color:#ffff;
+    color:#212121;
+    font-size: 20px;
+    font-weight: bold;
+    border: white;
+}
+.result{
+    text-align: center;
+    font-size: 22px;
+}
+.result p:nth-child(1){
+    margin: 10px;
+}
+.lowOrhigh{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color:#ffff;
+    color:#212121;
+    font-size: 20px;
+    font-weight: bold;
+    border: white;
+}
+@media only screen and (max-width: 600px){
+    .para h1{
+        font-size: 45px;
+    }
+    #guess{
+        font-size: 45px;
+    }
+  
+}
+@media only screen and (max-width: 500px){
+    .para h1{
+        font-size:40px;
+    }
+    .para p:nth-child(2){
+        margin:15px;
+        font-size: 18px;
+    }
+    .para p:nth-child(3){
+        margin:15px;
+        font-size: 18px;
+    }
+    #guess{
+        font-size: 40px;
+    }
+    #userInput{
+    
+       padding: 5px 20px;
+       
+    }
+    #subt{
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .lowOrhigh{
+        font-size: 25px;
+    }
+    .button{
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+  
+}
+@media only screen and (max-width: 450px){
+    .para h1{
+        font-size:35px;
+    }
+    .para p:nth-child(2){
+        font-size: 15px;
+    }
+    .para p:nth-child(3){
+        font-size: 15px;
+    }
+    #guess{
+        font-size: 35px;
+    }
+    #userInput{
+    
+       padding: 5px 20px;
+       
+    }
+    #subt{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+    .lowOrhigh{
+        font-size: 15px;
+    }
+    .button{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+  
+}
+@media only screen and (max-width: 400px){
+    .para h1{
+        font-size:30px;
+    }
+    .para p:nth-child(2){
+        font-size: 15px;
+    }
+    .para p:nth-child(3){
+        font-size: 15px;
+    }
+    #guess{
+        font-size: 30px;
+    }
+    #userInput{
+        font-size: 15px;
+       padding: 3px 15px;
+       
+    }
+    #subt{
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+    .lowOrhigh{
+        font-size: 15px;
+    }
+    .button{
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+    .result{
+        font-size: 18px;
+    }
+    
+  
+}
+@media only screen and (max-width: 330px){
+    .para h1{
+        font-size:25px;
+    }
+    .para p:nth-child(2){
+        font-size: 12px;
+    }
+    .para p:nth-child(3){
+        font-size: 12px;
+    }
+    #guess{
+        font-size: 25px;
+    }
+    #userInput{
+        font-size: 12px;
+       padding: 3px 10px;
+       
+    }
+ 
+    #subt{
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    .lowOrhigh{
+        font-size: 12px;
+    }
+    .button{
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    .result{
+        font-size: 12px;
+    }
+  
+}
+@media only screen and (max-width:300px) {
+    #userInput{
+        font-size: 12px;
+        padding: 3px 5px;
+        
+     }
+}
